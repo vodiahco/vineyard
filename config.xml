@@ -26,16 +26,21 @@
         xmlns:rim="http://www.blackberry.com/ns/widgets"
 	version="1.0.0.0" id="org.apache.cordova.example">
 
-  <name>cordovaExample</name>
+  <name>VineYard</name>
 
-  <author>Your Name Here</author>
+  <author>Data Network Technologies</author>
 
   <description>
-       A sample Apache Cordova application that responds to the deviceready event.
+  
+   VineYard is a church based community website that allows members within a church to network.
+   
+       It supports video uploads, audio upload and ministry blogs/ articles; 
+       this way ministries can share materials with their member
+
   </description>
     
-  <license href="http://opensource.org/licenses/alphabetical">
-  </license>
+  <license/>
+
 
   <!-- Cordova API -->
   <feature id="blackberry.system" required="true" version="1.0.0.0" />
@@ -73,13 +78,12 @@
   <!-- Expose access to all URIs, including the file and http protocols -->
   <access subdomains="true" uri="*" />
 
-  <icon rim:hover="false" src="res/icon/blackberry/icon-80.png" />
-  <icon rim:hover="true" src="res/icon/blackberry/icon-80.png" />
+  <icon rim:hover="false" src="res/icon/blackberry/logo-flat.png" />
+  <icon rim:hover="true" src="res/icon/blackberry/logo-flat.png" />
 
   <rim:loadingScreen backgroundColor="#CFCFCF"
-                     foregroundImage="res/screen/blackberry/screen-225.png"
+                     foregroundImage="res/screen/blackberry/screen-225-flat.png"
 		     onFirstLaunch="true">
-    <rim:transitionEffect type="fadeOut" />
   </rim:loadingScreen>
 
   <content src="index.html" />
