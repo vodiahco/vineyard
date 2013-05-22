@@ -24,7 +24,7 @@
 
 <widget xmlns="http://www.w3.org/ns/widgets"
         xmlns:rim="http://www.blackberry.com/ns/widgets"
-	version="1.0.0.0" id="org.apache.cordova.example">
+	version="1.0.0.1" id="org.apache.cordova.example">
 
   <name>VineYard</name>
 
